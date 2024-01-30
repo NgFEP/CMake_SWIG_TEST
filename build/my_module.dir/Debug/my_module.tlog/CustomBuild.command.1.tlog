@@ -1,0 +1,22 @@
+^C:\USERS\OJ53\SOURCE\REPOS\CMAKE_SWIG_SIMPLE_TEST_1_31_2024\MYCLASS.I
+setlocal
+C:\Users\oj53\anaconda3\Library\bin\cmake.exe -E make_directory C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/build/CMakeFiles/my_module.dir C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/build C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/build/CMakeFiles/my_module.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\oj53\anaconda3\Library\bin\cmake.exe -E env SWIG_LIB=C:/Users/oj53/anaconda3/Library/bin/Lib C:/Users/oj53/anaconda3/Library/bin/swig.exe -python -outdir C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/build -c++ -interface _my_module -IC:/Users/oj53/anaconda3/include -IC:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024 -o C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/build/CMakeFiles/my_module.dir/MyClassPYTHON_wrap.cxx C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/MyClass.i
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\OJ53\SOURCE\REPOS\CMAKE_SWIG_SIMPLE_TEST_1_31_2024\CMAKELISTS.TXT
+setlocal
+C:\Users\oj53\anaconda3\Library\bin\cmake.exe -SC:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024 -BC:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/build --check-stamp-file C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

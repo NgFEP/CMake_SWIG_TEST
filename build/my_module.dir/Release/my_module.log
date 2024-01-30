@@ -1,0 +1,7 @@
+﻿  Swig compile MyClass.i for python
+  Building Custom Rule C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/CMakeLists.txt
+  MyClassPYTHON_wrap.cxx
+  MyClass.cpp
+  Generating Code...
+     Creating library C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/build/Release/my_module.lib and object C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/build/Release/my_module.exp
+  my_module.vcxproj -> C:\Users\oj53\source\repos\Cmake_SWIG_simple_test_1_31_2024\build\Release\_my_module.pyd

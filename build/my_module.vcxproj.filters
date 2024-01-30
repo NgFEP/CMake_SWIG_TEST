@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\oj53\source\repos\Cmake_SWIG_simple_test_1_31_2024\build\CMakeFiles\my_module.dir\MyClassPYTHON_wrap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\oj53\source\repos\Cmake_SWIG_simple_test_1_31_2024\MyClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\oj53\source\repos\Cmake_SWIG_simple_test_1_31_2024\MyClass.i" />
+    <CustomBuild Include="C:\Users\oj53\source\repos\Cmake_SWIG_simple_test_1_31_2024\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\oj53\source\repos\Cmake_SWIG_simple_test_1_31_2024\build\my_module.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AF0DC944-6562-3E8D-BDE0-BA346856A3A8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

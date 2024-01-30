@@ -1,0 +1,6 @@
+﻿  Swig compile MyClass.i for python
+  Building Custom Rule C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/CMakeLists.txt
+  MyClassPYTHON_wrap.cxx
+  MyClass.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'python311_d.lib'

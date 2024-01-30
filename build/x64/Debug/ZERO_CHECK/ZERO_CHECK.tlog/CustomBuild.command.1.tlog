@@ -1,0 +1,10 @@
+^C:\USERS\OJ53\SOURCE\REPOS\CMAKE_SWIG_SIMPLE_TEST_1_31_2024\BUILD\CMAKEFILES\45F57A60A196A72A14B7A9A256DE72FE\GENERATE.STAMP.RULE
+setlocal
+C:\Users\oj53\anaconda3\Library\bin\cmake.exe -SC:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024 -BC:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/oj53/source/repos/Cmake_SWIG_simple_test_1_31_2024/build/MyModule.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
