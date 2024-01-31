@@ -4,21 +4,7 @@ A simple test for creating Python wrapper for C++  using SWIG and CMake
 
 ## Description
 
-[CMake](https://cmake.org/), an open-source, cross-platform build manager supports [SWIG](https://www.swig.org/) (Simplified Wrapper and Interface Generator). CMake detects SWIG, links language libraries, and builds modules for cross-platform development. It simplifies SWIG integration in IDEs and makefiles through a single input file. Below is the CMakeLists.txt file for a Python wrapper with SWIG's interface file MyClass.i:
-
-
-cmake_minimum_required(VERSION 3.26.4)
-project(MyModule) 
-find_package(Python 3.8 REQUIRED)   # Accepts Python version 3.8 or newer
-find_package(SWIG 4.1.1 REQUIRED)  # Accepts SWIG version 4.1.1 or newer
-include(${SWIG_USE_FILE})
-find_package(PythonLibs REQUIRED)
-include_directories(${PYTHON_INCLUDE_PATH})
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
-set(CMAKE_SWIG_FLAGS "")
-set_property(SOURCE MyClass.i PROPERTY CPLUSPLUS ON)
-swig_add_library(my_module LANGUAGE python SOURCES MyClass.i MyClass.cpp)
-swig_link_libraries(my_module ${PYTHON_LIBRARIES})
+[CMake](https://cmake.org/), an open-source, cross-platform build manager supports [SWIG](https://www.swig.org/) (Simplified Wrapper and Interface Generator). CMake detects SWIG, links language libraries, and builds modules for cross-platform development. It simplifies SWIG integration in IDEs and makefiles through a single input file. Below is the CMakeLists.txt file for a Python wrapper with SWIG's interface file MyClass.i
 
 
 ## Getting Started
@@ -51,7 +37,7 @@ a simple print of
 ## Authors
 
 Contributors names and contact info
-ex. [Omid Jahanmahin](https://github.com/ozj1) 
+- [Omid Jahanmahin](https://github.com/ozj1)
 
 ## Version History
 
