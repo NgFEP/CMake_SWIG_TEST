@@ -31,8 +31,8 @@ A simple test for creating Python wrapper for C++  using SWIG and CMake
 
 ## Expected output!
 
-a simple print of
-"Hello From C++"
+a simple print of:
+- "Hello From C++"
 
 ## Authors
 
