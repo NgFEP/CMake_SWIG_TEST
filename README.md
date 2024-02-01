@@ -27,7 +27,7 @@ A simple test for creating Python wrapper for C++  using SWIG and CMake
 * Working directory: .
 * Command: provide address to python.exe
 * Command argument: ../wrapper_test.py
-* Run the my_module project
+* Run the my_module project on the Release mode
 
 ## Expected output!
 
