@@ -19,7 +19,7 @@ A simple test for creating Python wrapper for C++  using SWIG and CMake
 
 ### Executing program
 
-* Open the solution file CMake_SWIG_TEST/build/MyModule.sln 
+* Open the solution file build/MyModule.sln 
 * No need to build one more time
 * Open project properties called my_module and provide access to the my_module.py and _my_module.pyd files
 * Make the following adjustments
